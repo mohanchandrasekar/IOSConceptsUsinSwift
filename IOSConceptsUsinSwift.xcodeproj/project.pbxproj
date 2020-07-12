@@ -13,6 +13,10 @@
 		578F7A2724BB225300363640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578F7A2624BB225300363640 /* Assets.xcassets */; };
 		578F7A2A24BB225300363640 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578F7A2924BB225300363640 /* Preview Assets.xcassets */; };
 		578F7A2D24BB225300363640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578F7A2B24BB225300363640 /* LaunchScreen.storyboard */; };
+		578F7A3624BB22C400363640 /* ProtocolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3524BB22C400363640 /* ProtocolDemo.swift */; };
+		578F7A3A24BB282400363640 /* ExtensionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3924BB282400363640 /* ExtensionDemo.swift */; };
+		578F7A3C24BB2E3C00363640 /* StructDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3B24BB2E3C00363640 /* StructDemo.swift */; };
+		578F7A3E24BB5CBE00363640 /* SwiftPropertyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3D24BB5CBE00363640 /* SwiftPropertyDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		578F7A2924BB225300363640 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		578F7A2C24BB225300363640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578F7A2E24BB225300363640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578F7A3524BB22C400363640 /* ProtocolDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDemo.swift; sourceTree = "<group>"; };
+		578F7A3924BB282400363640 /* ExtensionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDemo.swift; sourceTree = "<group>"; };
+		578F7A3B24BB2E3C00363640 /* StructDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDemo.swift; sourceTree = "<group>"; };
+		578F7A3D24BB5CBE00363640 /* SwiftPropertyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPropertyDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		578F7A1424BB225100363640 = {
 			isa = PBXGroup;
 			children = (
+				578F7A3424BB227100363640 /* CoreConcepts */,
 				578F7A1F24BB225100363640 /* IOSConceptsUsinSwift */,
 				578F7A1E24BB225100363640 /* Products */,
 			);
@@ -73,6 +82,17 @@
 				578F7A2924BB225300363640 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		578F7A3424BB227100363640 /* CoreConcepts */ = {
+			isa = PBXGroup;
+			children = (
+				578F7A3524BB22C400363640 /* ProtocolDemo.swift */,
+				578F7A3924BB282400363640 /* ExtensionDemo.swift */,
+				578F7A3B24BB2E3C00363640 /* StructDemo.swift */,
+				578F7A3D24BB5CBE00363640 /* SwiftPropertyDemo.swift */,
+			);
+			path = CoreConcepts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578F7A3A24BB282400363640 /* ExtensionDemo.swift in Sources */,
+				578F7A3624BB22C400363640 /* ProtocolDemo.swift in Sources */,
 				578F7A2124BB225100363640 /* AppDelegate.swift in Sources */,
 				578F7A2324BB225100363640 /* SceneDelegate.swift in Sources */,
 				578F7A2524BB225100363640 /* ContentView.swift in Sources */,
+				578F7A3E24BB5CBE00363640 /* SwiftPropertyDemo.swift in Sources */,
+				578F7A3C24BB2E3C00363640 /* StructDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
