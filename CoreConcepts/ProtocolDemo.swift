@@ -9,7 +9,7 @@
 import Foundation
 
 struct Car: CarConfiguration, VehicleProperty {
-    var number: String
+    var number: String = "1233"
     
     func getSpeed() -> Double {
         return speed
@@ -36,6 +36,6 @@ protocol CarConfiguration {
 
 protocol VehicleProperty {
     var number: String {
-        get
+        get set
     }
 }

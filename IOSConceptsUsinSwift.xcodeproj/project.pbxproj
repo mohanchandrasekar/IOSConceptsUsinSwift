@@ -17,6 +17,9 @@
 		578F7A3A24BB282400363640 /* ExtensionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3924BB282400363640 /* ExtensionDemo.swift */; };
 		578F7A3C24BB2E3C00363640 /* StructDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3B24BB2E3C00363640 /* StructDemo.swift */; };
 		578F7A3E24BB5CBE00363640 /* SwiftPropertyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3D24BB5CBE00363640 /* SwiftPropertyDemo.swift */; };
+		578F7A4024BB659300363640 /* ClosuresDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A3F24BB659300363640 /* ClosuresDemo.swift */; };
+		578F7A4224BB8D7D00363640 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A4124BB8D7D00363640 /* ErrorHandling.swift */; };
+		578F7A4424BB952B00363640 /* GenericsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F7A4324BB952B00363640 /* GenericsDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		578F7A3924BB282400363640 /* ExtensionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDemo.swift; sourceTree = "<group>"; };
 		578F7A3B24BB2E3C00363640 /* StructDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDemo.swift; sourceTree = "<group>"; };
 		578F7A3D24BB5CBE00363640 /* SwiftPropertyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPropertyDemo.swift; sourceTree = "<group>"; };
+		578F7A3F24BB659300363640 /* ClosuresDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresDemo.swift; sourceTree = "<group>"; };
+		578F7A4124BB8D7D00363640 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		578F7A4324BB952B00363640 /* GenericsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 				578F7A3924BB282400363640 /* ExtensionDemo.swift */,
 				578F7A3B24BB2E3C00363640 /* StructDemo.swift */,
 				578F7A3D24BB5CBE00363640 /* SwiftPropertyDemo.swift */,
+				578F7A3F24BB659300363640 /* ClosuresDemo.swift */,
+				578F7A4124BB8D7D00363640 /* ErrorHandling.swift */,
+				578F7A4324BB952B00363640 /* GenericsDemo.swift */,
 			);
 			path = CoreConcepts;
 			sourceTree = "<group>";
@@ -166,12 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578F7A4224BB8D7D00363640 /* ErrorHandling.swift in Sources */,
 				578F7A3A24BB282400363640 /* ExtensionDemo.swift in Sources */,
 				578F7A3624BB22C400363640 /* ProtocolDemo.swift in Sources */,
+				578F7A4024BB659300363640 /* ClosuresDemo.swift in Sources */,
 				578F7A2124BB225100363640 /* AppDelegate.swift in Sources */,
 				578F7A2324BB225100363640 /* SceneDelegate.swift in Sources */,
 				578F7A2524BB225100363640 /* ContentView.swift in Sources */,
 				578F7A3E24BB5CBE00363640 /* SwiftPropertyDemo.swift in Sources */,
+				578F7A4424BB952B00363640 /* GenericsDemo.swift in Sources */,
 				578F7A3C24BB2E3C00363640 /* StructDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
